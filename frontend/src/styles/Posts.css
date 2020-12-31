@@ -1,5 +1,7 @@
 .posts {
   padding-top: 15px !important;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .filter,
@@ -77,4 +79,22 @@
 .disabled {
   background: #f0f0f0;
   color: #000000d2;
+}
+
+@media (min-width: 640px) {
+  .posts-container {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fetch-button {
+    width: 150px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .posts-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -25,6 +25,7 @@ body {
   position: absolute;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #00000085;
   padding-left: 30px;
   padding-right: 30px;
@@ -46,4 +47,16 @@ img {
 button:hover,
 select:hover {
   cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .header {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    height: 225px;
+  }
 }

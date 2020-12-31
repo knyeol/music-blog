@@ -6,7 +6,7 @@ function About() {
   const { loading, error, data } = useQuery(GET_ABOUT);
 
   return (
-    <div className="container">
+    <div className="container posts">
       <h3>About Me</h3>
       {data ? (
         <div>

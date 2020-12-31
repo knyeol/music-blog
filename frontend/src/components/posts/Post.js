@@ -15,7 +15,7 @@ function Post() {
   useEffect(() => getPostData(), []);
 
   return post ? (
-    <div className="container">
+    <div className="container posts">
       <h2>{post.title}</h2>
       <div className="img-container">
         <img
