@@ -10,10 +10,7 @@ function About() {
       <h3>About Me</h3>
       {data ? (
         <div>
-          <img
-            src={process.env.REACT_APP_URL + data.page.image.formats.medium.url}
-            alt={data.page.image.name}
-          />
+          <img src={data.page.image.url} alt={data.page.image.name} />
           <ReactMarkdown>{data.page.content}</ReactMarkdown>
         </div>
       ) : null}

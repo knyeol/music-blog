@@ -19,7 +19,7 @@ export const GET_POSTS = gql`
       date
       content
       image {
-        formats
+        url
       }
     }
   }
@@ -32,7 +32,7 @@ export const GET_ABOUT = gql`
       date
       content
       image {
-        formats
+        url
       }
     }
   }

@@ -18,10 +18,7 @@ function Post() {
     <div className="container posts">
       <h2>{post.title}</h2>
       <div className="img-container">
-        <img
-          src={process.env.REACT_APP_URL + post.image.formats.medium.url}
-          alt={post.image.name}
-        />
+        <img src={post.image.url} alt={post.image.name} />
       </div>
       <ReactMarkdown>{post.content}</ReactMarkdown>
     </div>
