@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "knyeol",
+    "api_key": "573596695964888",
+    "api_secret": "sYMKVYLBQpWJXvjIsc7zmN42AKE"
+  }
+}
